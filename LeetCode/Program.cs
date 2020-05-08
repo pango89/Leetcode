@@ -172,11 +172,30 @@ namespace LeetCode
             //Console.WriteLine(trie.Search("app"));     // returns true
 
 
-            LongestSubstring ls = new LongestSubstring();
-            //ls.LengthOfLongestSubstring("abcabcbb");
-            ls.LengthOfLongestSubstring("pwwkew");
-            ls.LengthOfLongestSubstring("The quick brown fox jumped over a lazy dog.");
-            //ls.LengthOfLongestSubstring("artistanb");
+            //LongestSubstring ls = new LongestSubstring();
+            ////ls.LengthOfLongestSubstring("abcabcbb");
+            //ls.LengthOfLongestSubstring("pwwkew");
+            //ls.LengthOfLongestSubstring("The quick brown fox jumped over a lazy dog.");
+            ////ls.LengthOfLongestSubstring("artistanb");
+            ///
+
+            //CombinationSum cs = new CombinationSum();
+            //int[] candidates = new int[] {2, 3, 6, 7 };
+            //IList<IList<int>> res = cs.GetCombinationSum(candidates, 7);
+
+            //for(int i = 0; i <= res.Count - 1; i++)
+            //    Console.WriteLine("[{0}]", string.Join(", ", res[i]));
+
+            //Sort s = new Sort();
+            //int[] arr = new int[] { 5, 2, 3, 1 };
+            //s.SortArray(arr);
+            //Console.WriteLine("[{0}]", string.Join(", ", arr));
+
+            string[] words1 = new string[] { "the", "day", "is", "sunny", "the", "the", "the", "sunny", "is", "is" };
+            string[] words2 = new string[] { "i", "love", "leetcode", "i", "love", "coding" };
+            TopKFrequentWords tkfw = new TopKFrequentWords();
+            IList<string> topKWords = tkfw.TopKFrequent(words2, 2);
+            Console.WriteLine("[{0}]", string.Join(", ", topKWords));
         }
     }
 }
