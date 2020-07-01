@@ -191,11 +191,54 @@ namespace LeetCode
             //s.SortArray(arr);
             //Console.WriteLine("[{0}]", string.Join(", ", arr));
 
-            string[] words1 = new string[] { "the", "day", "is", "sunny", "the", "the", "the", "sunny", "is", "is" };
-            string[] words2 = new string[] { "i", "love", "leetcode", "i", "love", "coding" };
-            TopKFrequentWords tkfw = new TopKFrequentWords();
-            IList<string> topKWords = tkfw.TopKFrequent(words2, 2);
-            Console.WriteLine("[{0}]", string.Join(", ", topKWords));
+            //string[] words1 = new string[] { "the", "day", "is", "sunny", "the", "the", "the", "sunny", "is", "is" };
+            //string[] words2 = new string[] { "i", "love", "leetcode", "i", "love", "coding" };
+            //TopKFrequentWords tkfw = new TopKFrequentWords();
+            //IList<string> topKWords = tkfw.TopKFrequent(words2, 2);
+            //Console.WriteLine("[{0}]", string.Join(", ", topKWords));
+
+            //Tracxn s = new Tracxn();
+            //string[] ingredients = new string[] { "FAT1", "FIBER1", "CARB1", "FAT2", "FIBER2", "FIBER3" };
+            //s.Solve(6, 3, ingredients);
+
+            //LRUCache cache = new LRUCache(2);
+            //cache.Put(1, 1);
+            //cache.Put(2, 2);
+            //cache.Get(1);       // returns 1
+            //cache.Put(3, 3);    // evicts key 2
+            //cache.Get(2);       // returns -1 (not found)
+            //cache.Put(4, 4);    // evicts key 1
+            //cache.Get(1);       // returns -1 (not found)
+            //cache.Get(3);       // returns 3
+            //cache.Get(4);       // returns 4
+
+            //TreeNode n1 = new TreeNode(10);
+            //n1.left = new TreeNode(5);
+            //n1.right = new TreeNode(15);
+            //n1.left.left = new TreeNode(1);
+            //n1.left.right = new TreeNode(8);
+            //n1.right.right = new TreeNode(7);
+            //LargestBSTinBT lbst = new LargestBSTinBT();
+            //Console.WriteLine(lbst.LargestBSTSubtree(n1));
+
+            //TreeNode n1 = new TreeNode(3);
+            //n1.left = new TreeNode(5);
+            //n1.right = new TreeNode(1);
+            //n1.left.left = new TreeNode(6);
+            //n1.left.right = new TreeNode(2);
+
+            //n1.right.left = new TreeNode(0);
+            //n1.right.right = new TreeNode(8);
+
+            //n1.left.right.left = new TreeNode(7);
+            //n1.left.right.right = new TreeNode(4);
+
+            //NodesAtDistanceK n = new NodesAtDistanceK();
+            //IList<int> nodes = n.DistanceK(n1, n1.left, 2);
+            //Console.WriteLine("[{0}]", string.Join(", ", nodes));
+
+            Subset s = new Subset();
+            s.SubsetsOfSet(new int[] { 1, 2, 3 });
         }
     }
 }

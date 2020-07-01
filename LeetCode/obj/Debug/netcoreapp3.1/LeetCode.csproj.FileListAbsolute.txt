@@ -11,3 +11,16 @@ C:\Users\pankajg\source\repos\LeetCode\LeetCode\obj\Debug\netcoreapp3.1\LeetCode
 C:\Users\pankajg\source\repos\LeetCode\LeetCode\obj\Debug\netcoreapp3.1\LeetCode.dll
 C:\Users\pankajg\source\repos\LeetCode\LeetCode\obj\Debug\netcoreapp3.1\LeetCode.pdb
 C:\Users\pankajg\source\repos\LeetCode\LeetCode\obj\Debug\netcoreapp3.1\LeetCode.genruntimeconfig.cache
+C:\Personal\Leetcode\LeetCode\bin\Debug\netcoreapp3.1\LeetCode.exe
+C:\Personal\Leetcode\LeetCode\bin\Debug\netcoreapp3.1\LeetCode.deps.json
+C:\Personal\Leetcode\LeetCode\bin\Debug\netcoreapp3.1\LeetCode.runtimeconfig.json
+C:\Personal\Leetcode\LeetCode\bin\Debug\netcoreapp3.1\LeetCode.runtimeconfig.dev.json
+C:\Personal\Leetcode\LeetCode\bin\Debug\netcoreapp3.1\LeetCode.dll
+C:\Personal\Leetcode\LeetCode\bin\Debug\netcoreapp3.1\LeetCode.pdb
+C:\Personal\Leetcode\LeetCode\obj\Debug\netcoreapp3.1\LeetCode.csprojAssemblyReference.cache
+C:\Personal\Leetcode\LeetCode\obj\Debug\netcoreapp3.1\LeetCode.csproj.CoreCompileInputs.cache
+C:\Personal\Leetcode\LeetCode\obj\Debug\netcoreapp3.1\LeetCode.AssemblyInfoInputs.cache
+C:\Personal\Leetcode\LeetCode\obj\Debug\netcoreapp3.1\LeetCode.AssemblyInfo.cs
+C:\Personal\Leetcode\LeetCode\obj\Debug\netcoreapp3.1\LeetCode.dll
+C:\Personal\Leetcode\LeetCode\obj\Debug\netcoreapp3.1\LeetCode.pdb
+C:\Personal\Leetcode\LeetCode\obj\Debug\netcoreapp3.1\LeetCode.genruntimeconfig.cache

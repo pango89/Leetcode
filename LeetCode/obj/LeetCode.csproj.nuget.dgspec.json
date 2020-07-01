@@ -1,21 +1,18 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pankajg\\source\\repos\\LeetCode\\LeetCode\\LeetCode.csproj": {}
+    "C:\\Personal\\Leetcode\\LeetCode\\LeetCode.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pankajg\\source\\repos\\LeetCode\\LeetCode\\LeetCode.csproj": {
+    "C:\\Personal\\Leetcode\\LeetCode\\LeetCode.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pankajg\\source\\repos\\LeetCode\\LeetCode\\LeetCode.csproj",
+        "projectUniqueName": "C:\\Personal\\Leetcode\\LeetCode\\LeetCode.csproj",
         "projectName": "LeetCode",
-        "projectPath": "C:\\Users\\pankajg\\source\\repos\\LeetCode\\LeetCode\\LeetCode.csproj",
+        "projectPath": "C:\\Personal\\Leetcode\\LeetCode\\LeetCode.csproj",
         "packagesPath": "C:\\Users\\pankajg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pankajg\\source\\repos\\LeetCode\\LeetCode\\obj\\",
+        "outputPath": "C:\\Personal\\Leetcode\\LeetCode\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\pankajg\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -50,12 +47,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
