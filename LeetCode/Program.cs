@@ -242,7 +242,7 @@ namespace LeetCode
 
             TwoSum ts = new TwoSum();
             int[] nums = new int[] { 2, 7, 11, 15 };
-            int[] ans = ts.GetTwoSum(nums, 17);
+            int[] ans = ts.GetTwoSum(nums, 22);
             for (int i = 0; i <= ans.Length - 1; i++)
                 Console.WriteLine("[{0}]", string.Join(", ", ans[i]));
         }
