@@ -125,7 +125,7 @@ namespace LeetCode
             //int[] output = t.TopKFrequent1(new int[] { 1, 1, 1, 2, 2, 3 }, 2);
             //Console.WriteLine("[{0}]", string.Join(", ", output));
 
-            BTMaxPathSum bt = new BTMaxPathSum();
+            //BTMaxPathSum bt = new BTMaxPathSum();
             //TreeNode n1 = new TreeNode(-1);
             //n1.left = new TreeNode(5);
             //n1.left.left = new TreeNode(4);
@@ -204,13 +204,13 @@ namespace LeetCode
             //LRUCache cache = new LRUCache(2);
             //cache.Put(1, 1);
             //cache.Put(2, 2);
-            //cache.Get(1);       // returns 1
+            //Console.WriteLine(cache.Get(1));       // returns 1
             //cache.Put(3, 3);    // evicts key 2
-            //cache.Get(2);       // returns -1 (not found)
+            //Console.WriteLine(cache.Get(2));       // returns -1 (not found)
             //cache.Put(4, 4);    // evicts key 1
-            //cache.Get(1);       // returns -1 (not found)
-            //cache.Get(3);       // returns 3
-            //cache.Get(4);       // returns 4
+            //Console.WriteLine(cache.Get(1));       // returns -1 (not found)
+            //Console.WriteLine(cache.Get(3));       // returns 3
+            //Console.WriteLine(cache.Get(4));       // returns 4
 
             //TreeNode n1 = new TreeNode(10);
             //n1.left = new TreeNode(5);
@@ -237,8 +237,14 @@ namespace LeetCode
             //IList<int> nodes = n.DistanceK(n1, n1.left, 2);
             //Console.WriteLine("[{0}]", string.Join(", ", nodes));
 
-            Subset s = new Subset();
-            s.SubsetsOfSet(new int[] { 1, 2, 3 });
+            //Subset s = new Subset();
+            //s.SubsetsOfSet(new int[] { 1, 2, 3 });
+
+            TwoSum ts = new TwoSum();
+            int[] nums = new int[] { 2, 7, 11, 15 };
+            int[] ans = ts.GetTwoSum(nums, 17);
+            for (int i = 0; i <= ans.Length - 1; i++)
+                Console.WriteLine("[{0}]", string.Join(", ", ans[i]));
         }
     }
 }
