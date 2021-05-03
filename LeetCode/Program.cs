@@ -240,11 +240,17 @@ namespace LeetCode
             //Subset s = new Subset();
             //s.SubsetsOfSet(new int[] { 1, 2, 3 });
 
-            TwoSum ts = new TwoSum();
-            int[] nums = new int[] { 2, 7, 11, 15 };
-            int[] ans = ts.GetTwoSum(nums, 22);
-            for (int i = 0; i <= ans.Length - 1; i++)
-                Console.WriteLine("[{0}]", string.Join(", ", ans[i]));
+            //TwoSum ts = new TwoSum();
+            //int[] nums = new int[] { 2, 7, 11, 15 };
+            //int[] ans = ts.GetTwoSum(nums, 22);
+            //for (int i = 0; i <= ans.Length - 1; i++)
+            //    Console.WriteLine("[{0}]", string.Join(", ", ans[i]));
+
+            //ValidParentheses vp = new ValidParentheses();
+            //Console.WriteLine(vp.IsValid("()"));
+
+            PalindromeNumber pn = new PalindromeNumber();
+            Console.WriteLine(pn.IsPalindrome(13313));
         }
     }
 }
