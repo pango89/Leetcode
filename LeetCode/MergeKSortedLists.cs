@@ -1,23 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Diagnostics.CodeAnalysis;
-using System.Text;
 
 namespace LeetCode
 {
-    public class ListNode
-    {
-        public int val;
-        public ListNode next;
-        public ListNode(int x) { val = x; }
-    }
-
     public class PQNode
     {
-        public ListNode listNode;
+        public SLLNode listNode;
         public int sourceListIndex;
 
-        public PQNode(ListNode l, int i)
+        public PQNode(SLLNode l, int i)
         {
             this.listNode = l;
             this.sourceListIndex = i;
@@ -39,14 +30,14 @@ namespace LeetCode
 
     public class MergeKSortedLists
     {
-        public ListNode MergeKLists(ListNode[] lists)
+        public SLLNode MergeKLists(SLLNode[] lists)
         {
             SortedList<int, LinkedList<PQNode>> pq = new SortedList<int, LinkedList<PQNode>>();
-            ListNode output = null, lastPtr = null;
+            SLLNode output = null, lastPtr = null;
 
             for (int i = 0; i < lists.Length; i++)
             {
-                ListNode temp = lists[i];
+                SLLNode temp = lists[i];
                 if (lists[i] != null)
                     lists[i] = lists[i].next;
 
@@ -90,8 +81,8 @@ namespace LeetCode
 
                     // Get next element from removed node's source linked list
                     Console.WriteLine("Removed Node's source list index = {0}", sourceListIndexForRemovedNode);
-                    ListNode head = lists[sourceListIndexForRemovedNode];
-                    ListNode nextElement = head;
+                    SLLNode head = lists[sourceListIndexForRemovedNode];
+                    SLLNode nextElement = head;
                     //Console.WriteLine("Removed Node's source list Head = {0}", head.val);
 
                     if (lists[sourceListIndexForRemovedNode] != null)
@@ -114,9 +105,9 @@ namespace LeetCode
                     }
                 }
 
-                
 
-                ListNode temp = output;
+
+                SLLNode temp = output;
                 Console.WriteLine("Output After one while loop iteration");
 
                 while (temp != null)
