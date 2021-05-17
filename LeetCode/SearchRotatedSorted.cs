@@ -42,10 +42,13 @@
                 else
                 {
                     // Need to search both left and right sides
+                    int result = SearchUtil(arr, left, mid - 1, x);
+                    if (result != -1)
+                        return result;
+                    // Not found in left hence Serach right also
+                    return SearchUtil(arr, mid + 1, right, x);
                 }
             }
-
-            return -1;
         }
     }
 }
